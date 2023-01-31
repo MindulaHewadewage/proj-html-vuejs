@@ -1,4 +1,5 @@
 <script>
+impo
 export default {
 
 }
@@ -8,6 +9,6 @@ export default {
 
 </template>
 
-<style>
+<style scoped lang="scss">
 
 </style>
