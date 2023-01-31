@@ -14,7 +14,9 @@ export default {
                     <a href="#"><img src="../assets/img/avada-music-logo-retina.png" alt=""></a>
                 </div>
                 <div class="menu-bars">
-                    <a href="#"><font-awesome-icon icon="fa-solid fa-bars" /></a>
+                    <a href="#">
+                        <font-awesome-icon icon="fa-solid fa-bars" />
+                    </a>
                 </div>
             </header>
         </div>
@@ -67,7 +69,7 @@ export default {
         button {
             color: white;
             background-color: transparent;
-            padding: 10px 25px;
+            padding: 10px 30px;
             border-color: white;
             margin: 5px;
         }
