@@ -1,7 +1,15 @@
-<script></script>
+<script>
+export default {
+
+}
+
+</script>
 
 
-<template></template>
+<template>
+  <font-awesome-icon icon="fa-brands fa-twitter" />
+  <font-awesome-icon icon="fa-solid fa-plus" />
+</template>
 
 
 <style lang="scss">
