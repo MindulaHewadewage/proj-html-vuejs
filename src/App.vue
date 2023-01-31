@@ -1,14 +1,14 @@
 <script>
+import AppHeader from './components/AppHeader.vue';
 export default {
-
+  components: { AppHeader }
 }
 
 </script>
 
 
 <template>
-  <font-awesome-icon icon="fa-brands fa-twitter" />
-  <font-awesome-icon icon="fa-solid fa-plus" />
+  <app-header></app-header>
 </template>
 
 
