@@ -1,20 +1,20 @@
 <script>
 export default {
-    title: {
-
+    props: {
+        title: String
     }
 }
 </script>
 
 <template>
-    <div class="xs-container">
-        <section>
-            <h1 class="section-title">Music Is Life</h1>
+    <section>
+        <div class="xs-container">
+            <h1 class="section-title">{{ title }}</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia neque eligendi inventore aut et pariatur
                 totam non exercitationem ipsam?
             </p>
-        </section>
-    </div>
+        </div>
+    </section>
 </template>
 
 <style scoped lang="scss">
@@ -22,22 +22,26 @@ section {
     min-height: 100px;
     text-align: center;
     padding: 30px 0;
+    color: #7D7B8D;
 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 
-}
+    h1 {
+        color: white;
 
-h1 {
-    &::after {
-        content: '';
-        display: block;
-        width: 200px;
-        height: 1px;
-        margin: 1rem;
-        background-color: black;
+        &::after {
+            content: '';
+            display: block;
+            width: 200px;
+            height: 1px;
+            margin: 1rem auto;
+            background-color: #7D7B8D;
+        }
     }
+
+
 }
 </style>
