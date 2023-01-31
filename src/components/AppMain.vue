@@ -1,13 +1,16 @@
 <script>
 import BlockSection from './structure/BlockSection.vue';
+import NewsCardSection from './structure/NewsCardSection.vue'
 export default {
-    components: { BlockSection }
+
+    components: { BlockSection, NewsCardSection }
 }
 </script>
 
 <template>
     <block-section title="Music Is Life" class="bg-lightgrey"></block-section>
     <block-section title="Latest Band News" class="bg-darkgrey"></block-section>
+    <news-card-section></news-card-section>
 </template>
 
 <style scoped lang="scss">
