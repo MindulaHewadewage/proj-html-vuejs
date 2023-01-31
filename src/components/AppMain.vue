@@ -1,6 +1,6 @@
 <script>
 import BlockSection from './structure/BlockSection.vue';
-import NewsCardSection from './structure/NewsCardSection.vue'
+import NewsCardSection from './news/NewsCardSection.vue'
 export default {
 
     components: { BlockSection, NewsCardSection }

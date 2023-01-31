@@ -1,5 +1,8 @@
 <script>
+import NewsCard from './NewsCard.vue'
 export default {
+    name: 'NewsCardSection',
+    components: { NewsCard }
     data() {
         return {
             items: [
