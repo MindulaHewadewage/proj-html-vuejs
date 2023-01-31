@@ -20,19 +20,23 @@
   }
   
   /* utils */
+  .large-container{
+    margin: 0 auto;
+    max-width: 1400px;
+  }
   .container {
     margin: 0 auto;
     max-width: 1200px;
   }
 
-  .large-container{
-    margin: 0 auto;
-    max-width: 1400px;
-  }
-
   .small-container{
     margin: 0 auto;
     max-width: 1000px;
+  }
+
+  .xs-container{
+    margin: 0 auto;
+    max-width: 600px;
   }
   
   ul li {
