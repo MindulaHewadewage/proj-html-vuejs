@@ -11,12 +11,21 @@ export default {
         <div class="large-container">
             <header>
                 <div class="logo">
-                    <img src="../assets/img/avada-music-logo-retina.png" alt="">
+                    <a href="#"><img src="../assets/img/avada-music-logo-retina.png" alt=""></a>
                 </div>
                 <div class="menu-bars">
-                    <font-awesome-icon icon="fa-solid fa-bars" />
+                    <a href="#"><font-awesome-icon icon="fa-solid fa-bars" /></a>
                 </div>
             </header>
+        </div>
+
+        <div class="jumbotron-content">
+            <h1>Untold Stories</h1>
+            <p><i>There is an untold story behind every favorite song.</i> </p>
+            <div class="buttons">
+                <button class="coloured">LATEST ALBUM</button>
+                <button>LIVE DATES</button>
+            </div>
         </div>
 
     </div>
@@ -31,8 +40,42 @@ export default {
     height: 100vh;
 }
 
-header {
+.jumbotron-content {
     color: white;
+    height: calc(100% - 200px);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+        font-size: 110px;
+        font-weight: 700;
+    }
+
+
+    // BUTTONS
+    .buttons {
+
+
+        .coloured {
+            background-color: #EC4858;
+            border: 0
+        }
+
+        button {
+            color: white;
+            background-color: transparent;
+            padding: 10px 25px;
+            border-color: white;
+            margin: 5px;
+        }
+    }
+
+}
+
+header {
     min-height: 100px;
 
     display: flex;
@@ -44,7 +87,11 @@ header {
     }
 
     .fa-bars {
-        font-size: 30px;
+        font-size: 25px;
+    }
+
+    a {
+        color: white;
     }
 }
 </style>
