@@ -3,10 +3,10 @@ import BlockSection from './structure/BlockSection.vue';
 import SectionDivider from './structure/SectionDivider.vue';
 import NewsCardSection from './news/NewsCardSection.vue';
 import SongPreview from './song-preview/SongPreview.vue';
-import LiveDates from './live-dates/LiveDates.vue'
+import LiveDatesSection from './live-dates/LiveDatesSection.vue'
 export default {
 
-    components: { BlockSection, SectionDivider, NewsCardSection, SongPreview, LiveDates }
+    components: { BlockSection, SectionDivider, NewsCardSection, SongPreview, LiveDatesSection }
 }
 </script>
 
@@ -17,7 +17,7 @@ export default {
     <section-divider title="view all latest news"></section-divider>
     <song-preview></song-preview>
     <block-section title="Live Dates" class="bg-darkgrey"></block-section>
-    <live-dates></live-dates>
+    <live-dates-section></live-dates-section>
     <section-divider title="view all live dates"></section-divider>
 
 </template>
