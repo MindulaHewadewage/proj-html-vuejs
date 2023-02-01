@@ -14,7 +14,7 @@ export default {
                 inventive. I haven't heard anything this year that's as inventive. I
                 don' t really expect to."
             </p>
-            <img src="../../assets/img/band_interview_play_icon.png" alt="">
+            <a href="#"><img src="../../assets/img/band_interview_play_icon.png" alt="play-icon"></a>
 
         </div>
     </div>
