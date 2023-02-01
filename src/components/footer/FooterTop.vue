@@ -2,11 +2,9 @@
 export default {
     data() {
         return {
-            links{
 
         }
     }
-}
 }
 </script>
 
