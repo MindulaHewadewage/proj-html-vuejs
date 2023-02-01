@@ -1,6 +1,10 @@
 <script>
 export default {
-
+    data() {
+        return {
+            isOpen: false
+        }
+    },
 }
 
 </script>
@@ -8,20 +12,21 @@ export default {
 
 <template>
     <div class="jumbotron">
+        <!-- header -->
         <div class="large-container">
             <header>
                 <div class="logo">
                     <a href="#"><img src="../assets/img/avada-music-logo-retina.png" alt=""></a>
                 </div>
                 <div class="menu-bars">
-                    <a href="#">
+                    <a @click="isOpen = !isOpen" href="#">
                         <font-awesome-icon icon="fa-solid fa-bars" />
                     </a>
                 </div>
             </header>
         </div>
 
-        <div class="open-menu">
+        <div v-if="isOpen" class="open-menu">
             <ul>
                 <a href="#">
                     <li>Home</li>
@@ -44,6 +49,8 @@ export default {
             </ul>
         </div>
 
+
+        <!-- jumbotron content -->
         <div class="jumbotron-content">
             <h1>Untold Stories</h1>
             <p><i>There is an untold story behind every favorite song.</i> </p>
@@ -101,7 +108,7 @@ export default {
 
 .jumbotron-content {
     color: white;
-    height: calc(100% - 200px);
+    height: 100%;
 
 
     display: flex;
@@ -121,7 +128,7 @@ export default {
 
         .coloured {
             background-color: #EC4858;
-            border: 0
+            border: 0;
         }
 
         button {
