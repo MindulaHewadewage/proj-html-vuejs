@@ -46,11 +46,23 @@ export default {
 </script>
 
 <template>
-    <div class="small-container">
-        <news-card v-for="item in items" :key="item.title" :item="item"></news-card>
+    <div class="bg">
+        <div class="small-container">
+            <div class="card-container">
+                <news-card v-for="item in items" :key="item.title" :item="item"></news-card>
+            </div>
+        </div>
     </div>
 </template>
 
 <style>
+.bg {
+    background-color: #252A33;
+}
 
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -2px;
+}
 </style>
