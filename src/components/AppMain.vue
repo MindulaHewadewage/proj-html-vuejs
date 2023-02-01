@@ -20,7 +20,6 @@ export default {
     <live-dates></live-dates>
     <section-divider title="view all live dates"></section-divider>
 
-
 </template>
 
 <style scoped lang="scss">
