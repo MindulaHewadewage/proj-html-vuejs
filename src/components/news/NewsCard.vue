@@ -2,14 +2,16 @@
 export default {
     name: 'NewsCard',
     props: {
-        item: object
+        item: Object
     }
 }</script>
 
 
 <template>
     <div class="news-card">
-        <img src="../../assets/img/blog_music_techo.jpg" alt="">
+        <img :src="item.img" alt="">
+        <h1>{{ item.title }}</h1>
+        <p>{{ item.subtitle }}</p>
     </div>
 </template>
 <style>

@@ -2,7 +2,7 @@
 import NewsCard from './NewsCard.vue'
 export default {
     name: 'NewsCardSection',
-    components: { NewsCard }
+    components: { NewsCard },
     data() {
         return {
             items: [
@@ -47,8 +47,7 @@ export default {
 
 <template>
     <div class="small-container">
-        <div v-for="item in items" :key="item.title">
-            {{ item.img }}</div>
+        <news-card v-for="item in items" :key="item.title" :item="item"></news-card>
     </div>
 </template>
 
