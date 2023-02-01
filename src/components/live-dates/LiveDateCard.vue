@@ -82,7 +82,7 @@ export default {
     }
 
     p {
-        color: #7D7B8D
+        color: #7D7B8D;
     }
 
     .coloured {
