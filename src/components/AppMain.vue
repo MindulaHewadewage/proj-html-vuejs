@@ -1,10 +1,11 @@
 <script>
 import BlockSection from './structure/BlockSection.vue';
 import SectionDivider from './structure/SectionDivider.vue';
-import NewsCardSection from './news/NewsCardSection.vue'
+import NewsCardSection from './news/NewsCardSection.vue';
+import SongPreview from './structure/SongPreview.vue';
 export default {
 
-    components: { BlockSection, SectionDivider, NewsCardSection }
+    components: { BlockSection, SectionDivider, NewsCardSection, SongPreview }
 }
 </script>
 
@@ -13,6 +14,8 @@ export default {
     <block-section title="Latest Band News" class="bg-darkgrey"></block-section>
     <news-card-section></news-card-section>
     <section-divider title="view all latest news"></section-divider>
+    <song-preview></song-preview>
+    <block-section title="Live Dates" class="bg-darkgrey"></block-section>
 
 </template>
 
