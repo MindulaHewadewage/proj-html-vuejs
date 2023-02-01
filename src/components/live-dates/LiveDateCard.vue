@@ -41,28 +41,24 @@ export default {
     cursor: pointer;
     margin: 10px;
     padding: 10px;
+}
+
+.event-name-location {
+    display: flex;
+    align-items: center;
 
 
-    .event-name-location {
-        display: flex;
-        align-items: center;
+    .fa-plus {
+        color: white;
+        padding-left: 10px;
 
-
-        .fa-plus {
-            color: white;
-            padding-left: 10px;
-
-        }
-
-        p {
-            padding: 0 15px;
-            margin: 0;
-            color: #EC4858;
-        }
     }
 
-
-
+    p {
+        padding: 0 15px;
+        margin: 0;
+        color: #EC4858;
+    }
 }
 
 .event-information {

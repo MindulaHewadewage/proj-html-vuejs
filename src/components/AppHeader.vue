@@ -21,6 +21,20 @@ export default {
             </header>
         </div>
 
+        <div class="open-menu">
+            <ul>
+                <li>Home</li>
+                <li>Meet The Band </li>
+                <li>Live Dates</li>
+                <li>Latest News</li>
+                <li>Albums</li>
+                <li>Fans</li>
+
+
+
+            </ul>
+        </div>
+
         <div class="jumbotron-content">
             <h1>Untold Stories</h1>
             <p><i>There is an untold story behind every favorite song.</i> </p>
@@ -40,11 +54,23 @@ export default {
     background-position: center;
     background-size: cover;
     height: 100vh;
+    position: relative;
+}
+
+.open-menu {
+    height: 100vh;
+    width: 100%;
+    background-color: #EC4858;
+    position: absolute;
+    color: white;
+
+
 }
 
 .jumbotron-content {
     color: white;
     height: calc(100% - 200px);
+
 
     display: flex;
     flex-direction: column;
