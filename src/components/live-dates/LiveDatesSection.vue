@@ -70,4 +70,8 @@ export default {
     height: 400px;
     overflow-y: auto;
 }
+
+::-webkit-scrollbar {
+    width: 0;
+}
 </style>
