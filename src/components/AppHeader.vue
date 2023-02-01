@@ -23,15 +23,24 @@ export default {
 
         <div class="open-menu">
             <ul>
-                <li>Home</li>
-                <li>Meet The Band </li>
-                <li>Live Dates</li>
-                <li>Latest News</li>
-                <li>Albums</li>
-                <li>Fans</li>
-
-
-
+                <a href="#">
+                    <li>Home</li>
+                </a>
+                <a href="#">
+                    <li>Meet The Band </li>
+                </a>
+                <a href="#">
+                    <li>Live Dates</li>
+                </a>
+                <a href="#">
+                    <li>Latest News</li>
+                </a>
+                <a href="#">
+                    <li>Albums</li>
+                </a>
+                <a href="#">
+                    <li>Fans</li>
+                </a>
             </ul>
         </div>
 
@@ -61,8 +70,31 @@ export default {
     height: 100vh;
     width: 100%;
     background-color: #EC4858;
-    position: absolute;
     color: white;
+    text-align: center;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    li {
+        font-size: 40px;
+        font-weight: 100;
+        padding: 10px;
+        opacity: 0.5;
+
+        &:hover {
+            opacity: 1;
+            scale: 1.1;
+            transition: 0.3s;
+        }
+    }
 
 
 }
@@ -109,6 +141,12 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    position: absolute;
+    top: 0;
+    left: 40px;
+    right: 40px;
+    z-index: 1;
 
     .logo {
         width: 250px;
