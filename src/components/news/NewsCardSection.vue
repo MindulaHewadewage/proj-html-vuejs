@@ -58,11 +58,16 @@ export default {
 <style>
 .bg {
     background-color: #252A33;
+
+}
+
+.small-container {
+    padding-bottom: 30px;
 }
 
 .card-container {
     display: flex;
     flex-wrap: wrap;
-    margin: -2px;
+
 }
 </style>

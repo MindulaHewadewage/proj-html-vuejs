@@ -19,11 +19,8 @@ export default {
 </template>
 <style scoped lang="scss">
 .news-card {
-    flex-basis: calc(100% / 3);
-    background-color: #323844;
-    margin: 5px;
-
-
+    width: calc(100% / 3);
+    padding: 10px;
 
     img {
         height: 80%;
@@ -33,8 +30,8 @@ export default {
 }
 
 .card-text {
-    padding: 10px 15px;
-
+    padding: 5px 10px;
+    background-color: #323844;
 
     h5 {
         color: #EC4858;
