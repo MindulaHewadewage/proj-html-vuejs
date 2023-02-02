@@ -22,7 +22,7 @@ section {
     min-height: 100px;
     text-align: center;
     padding: 30px 0;
-    color: #7D7B8D;
+    color: $font-secondary-color;
 
     display: flex;
     flex-direction: column;
@@ -38,7 +38,7 @@ section {
             width: 200px;
             height: 1px;
             margin: 1rem auto;
-            background-color: #7D7B8D;
+            background-color: $font-secondary-color;
         }
     }
 

@@ -62,8 +62,10 @@ export default {
 
 
 <style scoped lang="scss">
+@use '../../assets/sass/variables' as*;
+
 .bg {
-    background-color: #252A33;
+    background-color: $darkgrey;
 }
 
 .small-container {

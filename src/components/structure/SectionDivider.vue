@@ -13,8 +13,10 @@ export default {
 </template>
 
 <style scoped lang="scss">
+@use '../../assets/sass/variables' as*;
+
 .divider {
-    background-color: #EC4858;
+    background-color: $primary;
     color: white;
     min-height: 100px;
     cursor: pointer;

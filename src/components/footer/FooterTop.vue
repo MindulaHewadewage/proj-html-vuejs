@@ -43,8 +43,10 @@ export default {
 </template>
 
 <style scoped lang="scss">
+@use '../../assets/sass/variables' as*;
+
 .bg {
-    background-color: #323844;
+    background-color: $lightgrey;
 }
 
 .large-container {
@@ -73,7 +75,7 @@ export default {
 
         li {
             padding: 10px;
-            color: #7D7B8D;
+            color: $font-secondary-color;
 
             &:hover {
                 color: white;

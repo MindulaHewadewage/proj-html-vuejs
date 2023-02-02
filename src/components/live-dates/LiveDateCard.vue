@@ -41,8 +41,10 @@ export default {
 
 </template>
 <style scoped lang="scss">
+@use '../../assets/sass/variables' as*;
+
 .live-date-card {
-    background-color: #323844;
+    background-color: $lightgrey;
     margin: 10px;
     padding: 10px;
 }
@@ -62,13 +64,13 @@ export default {
     p {
         padding: 0 15px;
         margin: 0;
-        color: #EC4858;
+        color: $primary;
     }
 }
 
 .event-information {
     display: flex;
-    background-color: #323844;
+    background-color: $lightgrey;
     padding-top: 10px;
 
     img {
@@ -82,11 +84,11 @@ export default {
     }
 
     p {
-        color: #7D7B8D;
+        color: $font-secondary-color;
     }
 
     .coloured {
-        background-color: #EC4858;
+        background-color: $primary;
         border: 0;
         color: white;
 

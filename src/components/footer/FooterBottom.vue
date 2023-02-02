@@ -34,6 +34,12 @@ export default {
 </template>
 
 <style scoped lang="scss">
+@use '../../assets/sass/variables' as*;
+
+.bg {
+    background-color: $darkgrey;
+}
+
 .large-container {
     display: flex;
     justify-content: space-between;
@@ -49,7 +55,7 @@ export default {
             font-size: 10px;
 
             li {
-                color: #7D7B8D;
+                color: $font-secondary-color;
 
             }
         }
@@ -62,7 +68,7 @@ export default {
         .small-box {
             width: 30px;
             height: 30px;
-            background-color: #323844;
+            background-color: $lightgrey;
             margin: 0 4px;
 
             display: flex;
@@ -70,7 +76,7 @@ export default {
             justify-content: center;
 
             a {
-                color: #7D7B8D;
+                color: $font-secondary-color;
 
                 &:hover {
                     color: white;

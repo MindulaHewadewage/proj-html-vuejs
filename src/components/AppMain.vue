@@ -23,12 +23,14 @@ export default {
 </template>
 
 <style scoped lang="scss">
+@use '../assets/sass/variables' as*;
+
 // BLOCK SECTION BACKGROUND COLOR
 .bg-lightgrey {
-    background-color: #323844;
+    background-color: $lightgrey;
 }
 
 .bg-darkgrey {
-    background-color: #252A33;
+    background-color: $darkgrey;
 }
 </style>

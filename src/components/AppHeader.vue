@@ -65,6 +65,8 @@ export default {
 
 
 <style lang="scss" scoped>
+@use '../assets/sass/variables' as*;
+
 .jumbotron {
     background-image: url(../assets/img/home_slider.jpg);
     background-position: center;
@@ -76,7 +78,7 @@ export default {
 .open-menu {
     height: 100vh;
     width: 100%;
-    background-color: #EC4858;
+    background-color: $primary;
     color: white;
     text-align: center;
 
@@ -124,10 +126,8 @@ export default {
 
     // BUTTONS
     .buttons {
-
-
         .coloured {
-            background-color: #EC4858;
+            background-color: $primary;
             border: 0;
         }
 

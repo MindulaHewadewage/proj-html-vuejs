@@ -55,9 +55,11 @@ export default {
     </div>
 </template>
 
-<style>
+<style lang="scss" scoped>
+@use '../../assets/sass/variables' as*;
+
 .bg {
-    background-color: #252A33;
+    background-color: $darkgrey;
 
 }
 
