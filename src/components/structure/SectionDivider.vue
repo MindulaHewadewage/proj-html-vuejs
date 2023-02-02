@@ -17,7 +17,13 @@ export default {
     background-color: #EC4858;
     color: white;
     min-height: 100px;
+    cursor: pointer;
 
+    &:hover {
+        background-color: white;
+        color: black;
+        transition: 0.5s;
+    }
 
     display: flex;
     justify-content: center;

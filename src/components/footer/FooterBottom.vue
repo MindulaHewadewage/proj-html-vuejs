@@ -24,10 +24,10 @@ export default {
                 </ul>
             </div>
             <div class="social">
-                <a href="#"><font-awesome-icon icon="fa-brands fa-facebook-f" /></a>
-                <a href="#"><font-awesome-icon icon="fa-brands fa-twitter" /></a>
-                <a href="#"><font-awesome-icon icon="fa-brands fa-instagram" /></a>
-                <a href="#"><font-awesome-icon icon="fa-brands fa-youtube" /></a>
+                <div class="small-box"><a href="#"><font-awesome-icon icon="fa-brands fa-facebook-f" /></a></div>
+                <div class="small-box"><a href="#"><font-awesome-icon icon="fa-brands fa-twitter" /></a></div>
+                <div class="small-box"><a href="#"><font-awesome-icon icon="fa-brands fa-instagram" /></a></div>
+                <div class="small-box"><a href="#"><font-awesome-icon icon="fa-brands fa-youtube" /></a></div>
             </div>
         </div>
     </div>
@@ -47,7 +47,39 @@ export default {
             margin: 0;
             padding: 0;
             font-size: 10px;
+
+            li {
+                color: #7D7B8D;
+
+            }
         }
+    }
+
+
+    .social {
+        display: flex;
+
+        .small-box {
+            width: 30px;
+            height: 30px;
+            background-color: #323844;
+            margin: 0 4px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            a {
+                color: #7D7B8D;
+
+                &:hover {
+                    color: white;
+                }
+            }
+
+        }
+
+
     }
 }
 </style>

@@ -137,6 +137,12 @@ export default {
             padding: 10px 30px;
             border-color: white;
             margin: 5px;
+
+            &:hover {
+                background-color: white;
+                color: black;
+                transition: 0.5s;
+            }
         }
     }
 
